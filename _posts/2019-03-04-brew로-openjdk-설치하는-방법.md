@@ -2,7 +2,6 @@
 layout: article
 title: brew로 openjdk 설치하는 방법
 tags: misc
-author: Yeji Im
 ---
 
 ```

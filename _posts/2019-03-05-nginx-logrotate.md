@@ -2,7 +2,6 @@
 layout: article
 title: logrotate으로 로그 정리하기
 tags: server
-author: Yeji Im
 ---
 
 Logrotate를 사용해서 로깅이 좀 더 효율적으로 서버공간을 차지하도록 만들자
