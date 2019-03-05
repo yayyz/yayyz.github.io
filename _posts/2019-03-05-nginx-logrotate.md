@@ -7,7 +7,8 @@ tags: server
 Logrotate를 사용해서 로깅이 좀 더 효율적으로 서버공간을 차지하도록 만들자
 <!--more-->
 
-개발하고 있는 서비스의 로그 삭제 기준이 정해지지 않아 서버 disk 용량을 많이 차지했다. 최대한 가볍게 사용하려면 로그관리를 해줘야함.   
+개발하고 있는 서비스의 로그 삭제 기준이 정해지지 않아 서버 disk 용량을 많이 차지했다.   
+최대한 가볍게 사용하려면 로그관리를 해줘야함.   
 ![logrotate1.jpg](/image/logrotate1.jpg)
 
 ## 어떤 프로그램들이 로그를 찍는가
@@ -80,13 +81,14 @@ sudo vim /etc/logrotate.d/[파일명]
 	* ex) [로그위치경로]/**/nginx.log 
 
 3. 변경된 값을 적용합니다.
-    * -f 옵션은 해당 설정을 cron job 주기보다 (daily, monthly 등) 먼저 **당장 적용해야 할 때**, logrotate 자체에서 rotate 할 로그가 없다고 판단하여도 rotate 를 강제로 실행할 수 있는 옵션입니다.
+    * -f 옵션은 해당 설정을 cron job 주기보다 (daily, monthly 등) 먼저 **당장 적용해야 할 때**, logrotate 자체에서 rotate 할 로그가 없다고 판단하여도 rotate 를 강제로 실행할 수 있는 옵션입니다.  
 ```
 sudo logrotate -f /etc/logrotate.d/[file_name]
 
 //위 command가 'command not found' 라는 에러가 출력될 때 
 sudo /usr/sbin/logrotate -f /etc/logrotate.d/[file_name]
-```
+```  
+
 ### 결과 (nginx 로그)
 ![logrotate2.png](/image/logrotate2.png)  
 
