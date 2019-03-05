@@ -216,10 +216,11 @@ collections:
 defaults:
   ## home
   - scope:
-      path: "test"
+      path: ""
     values:
       articles:
         excerpt_type: html
+      comment: false
   ## posts
   - scope:
       path: ""
