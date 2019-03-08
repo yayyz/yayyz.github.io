@@ -18,8 +18,20 @@ titles:
 key: page-about
 comment: false
 ---
-![IMG_6222.JPG](/image/IMG_6222.JPG)  
-👩‍💻    
-- Backend Developer 
-- java, kotlin
-- Speaks Korean, knows English, currently learning Chinese
+
+<div class="item">
+  <div class="item__image">
+    <img class="image image--lg" src="/image/IMG_6222.JPG"/>
+  </div>
+  <div class="item__content">
+    <div class="item__header">
+    </div>
+    <div class="item__description">
+      <ul>
+        <li>Backend Developer</li>
+        <li>java, kotlin</li>
+        <li>Speaks Korean, knows English, currently learning Chinese</li>
+      </ul>
+    </div>
+  </div>
+</div>
