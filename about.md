@@ -18,11 +18,8 @@ titles:
 key: page-about
 comment: false
 ---
-
 ![IMG_6222.JPG](/image/IMG_6222.JPG)  
-
-Hello! 👩‍💻    
-Yeji Im 
+👩‍💻    
 - Backend Developer 
 - java, kotlin
 - Speaks Korean, knows English, currently learning Chinese
