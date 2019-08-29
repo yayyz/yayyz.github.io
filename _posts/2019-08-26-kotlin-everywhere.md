@@ -1,6 +1,13 @@
 ---
 title: Kotlin's Experimental features (from Kotlin Everywhere Seoul 2019 event)
 layout: article
+article_header:
+  type: overlay
+  theme: dark
+  background_color: '#203028'
+  background_image:
+    gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
+    src: /assets/images/IMG_8930.jpg
 sharing: true
 license: true
 aside:
@@ -10,6 +17,8 @@ show_subscribe: true
 pageview: true
 tags: conference kotlin
 ---
+My notes from Kotlin Everywhere Seoul 2019 event
+<!--more-->
 
 ## Experimental Features
 
