@@ -15,7 +15,7 @@ aside:
 show_edit_on_github: true
 show_subscribe: true
 pageview: true
-tags: conference kotlin
+tags: conference kotlin en
 ---
 My notes from Kotlin Everywhere Seoul 2019 event
 <!--more-->
