@@ -10,6 +10,8 @@ show_subscribe: true
 pageview: true
 tags: server centos
 ---
+-bash: rm: command not found 
+<!--more-->
 
 ```
 [ec2-user@### apps]$ rm filebeat-7.3.0-x86_64.rpm
