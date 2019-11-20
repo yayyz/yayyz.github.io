@@ -1,11 +1,17 @@
-# revised
 ---
-layout: article
 title: Sonarqube 란?
+layout: article
+sharing: true
+license: true
+aside:
+  toc: true
+show_edit_on_github: true
+show_subscribe: true
+pageview: true
 tags: ci
 ---
 
-Sonarqube에 대해 알아보쟈 (draft)
+Sonarqube에 대해 알아보쟈
 <!--more-->
 
 ## 소나큐브란?
@@ -107,8 +113,7 @@ sonarqube {
             property "sonar.exclusions", "src/main/resources-env/**"
         }
 }
-````
-
+```
 ### 젠킨스
 * Sonarqube Servers 설정 
 
@@ -119,7 +124,7 @@ web hook 등록
 
 ## 실행 
 ### local 
-```
+```groovy
 gradle sonarqube 
 ```
 
@@ -139,5 +144,3 @@ sonarqube
 
 ## 참고
 https://blog.sonarsource.com/why-you-shouldnt-use-build-breaker/
-
-#문서화
