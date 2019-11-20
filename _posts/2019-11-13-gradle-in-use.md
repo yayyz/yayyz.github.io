@@ -1,5 +1,5 @@
 ---
-title: "It is currently in use by another Gradle instance" 해결방법 
+title: It is currently in use by another Gradle instance - 해결방법 
 layout: article
 sharing: true
 license: true
@@ -10,8 +10,9 @@ show_subscribe: true
 pageview: true
 tags: dev gradle misc
 ---
+It is currently in use by another Gradle instance 에러 해결방법.
+<!--more-->
 
-## 해결방법
 에러로그에 찍힌 해당 .lock 파일을 직접 제거해 준다.  
 log level을 `--info`로 하고 console에 살펴보면 `.lock` 파일의 절대경로를 알려준다.  
 해당 파일을 제거해주고 다시 gradle 태스크를 실행하면 정상동작 하는 것을 확인 할 수 있다.  
