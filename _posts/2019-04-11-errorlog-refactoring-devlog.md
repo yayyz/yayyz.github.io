@@ -11,7 +11,7 @@ pageview: true
 tags: devlog refactoring
 ---
 진짜 별거 아닌 작업 같지만 한번쯤은 의식의 흐름을 남겨보고 싶었습니다. 
-<!-- more --> 
+<!--more-->
 
 ## intro?
 주문, 결제 관련 개발을 하는 파트에서 일하고 있는 개발자1입니다.   
