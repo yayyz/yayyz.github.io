@@ -1,5 +1,5 @@
 ---
-title: [devlog] 에러로그 리팩토링에 대한 개발자1의 의식의 흐름 
+title: 에러로그 리팩토링에 대한 개발자1의 의식의 흐름 
 layout: article
 sharing: true
 license: true
