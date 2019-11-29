@@ -1,5 +1,5 @@
 ---
-layout: keebs
+layout: articles
 titles:
   en      : &EN       ⌨️❤
   en-GB   : *EN
@@ -17,10 +17,18 @@ titles:
   ko-KR   : *KO
 show_title: false
 articles:
-    data_source: paginator.keebs
-    article_type: BlogPosting
-    show_cover: false
-    show_excerpt: true
-    show_readmore: true
-    show_info: true
+  data_source: paginator.keebs
+  article_type: BlogPosting
+  show_cover: false
+  show_excerpt: true
+  show_readmore: true
+  show_info: true
 ---
+<div class="layout--home">
+    {%- include paginator.html -%}
+</div>
+<script>
+    {%- include scripts/home.js -%}
+</script>
+
+{{ content }}
