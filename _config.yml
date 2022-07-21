@@ -1,6 +1,7 @@
 resume_url: "Resume.pdf"
-author_name: "John Doe"
-url: johndoe.com
+author_name: "임예지"
+description: "Backend & DevOps Engineer"
+url: yay-z.com
 
 plugins:
   - jekyll-seo-tag
