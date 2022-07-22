@@ -1,5 +1,5 @@
 ---
 layout: home
-home_text: Backend & DevOps Engineer
+home_text: Backend Developer & DevOps Engineer
 title: Yeji Im
 ---
